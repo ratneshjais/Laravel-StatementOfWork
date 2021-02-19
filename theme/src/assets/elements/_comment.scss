@@ -1,0 +1,23 @@
+.user_name{
+    font-size:14px;
+    font-weight: bold;
+}
+.comments-list .media{
+    display: block;
+    border-bottom: 1px dotted #ccc;
+    padding: 10px;
+}
+.comments-list {
+    //max-height:150px;
+    //overflow:auto;
+}
+
+.border-l-r {
+    border-right: solid 1px #dee2e6;
+    border-left: solid 1px #dee2e6;
+}
+
+.comments-dmt {
+    width: 100%;
+    float:left;
+}

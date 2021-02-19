@@ -1,0 +1,184 @@
+/* Shifted to Theme code src->elements->multistep.scss|custom.scss|comment.scss */
+.comments-list .media {
+    float: left;
+    width: 100%;
+
+}
+
+.comments-dmt {
+    width: 100%;
+    float: left;
+    display: block;
+    background-color: #dedede;
+    padding: 13px;
+    border-radius: 3px;
+    position: relative;    
+}
+
+.comments-dmt:after {
+    position:absolute;
+    content: "";
+    display: block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 7.5px 15.0px 7.5px;
+    border-color: transparent transparent rgb(222,222,222) transparent;
+    top: -14px;
+    left: 14px;
+}
+
+#commentbtn{
+  /* float: right; */
+    top:1.5px;
+    right: 2px;
+    position: absolute;
+}
+
+.app-page-title {
+    padding: 15px;
+    margin: 0px 0px 30px;
+}
+
+/* .btn.btn-primary {
+    padding: 8px 25px;
+} */
+
+.padding-l-0 {
+    padding-left:0;
+}
+
+.form-control:disabled, .form-control[readonly] {
+    background-color: #fff;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #31a66a !important;
+}
+
+.scrolling-wrapper {
+    max-height: 150px;
+    overflow: auto;
+}
+
+.comments-list  {
+    margin:20px 0;
+    border:solid 1px #dee2e6;
+    position: relative;
+    box-shadow:0 1px 6px rgba(0,0,0,0.175);
+    padding:0;
+    margin-top: 14px;
+}
+
+.comments-list:after {
+    position:absolute;
+    content: "";
+    display: block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	
+    border-width: 0 15.5px 14.0px 15.5px;
+    border-color: transparent transparent rgb(255, 255, 255) transparent;
+    top: -14px;
+    left: 15px;
+}
+.comments-list:before {
+    position:absolute;
+    content: "";
+    display: block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 16.5px 15.0px 16.5px;
+    border-color: transparent transparent rgb(222,222,222) transparent;
+    top: -15px;
+    left: 14px;
+}
+
+.deact_button{
+    background: transparent;
+    border: 0px;
+    color: red;
+}
+
+.act_button{
+    color: #008000;
+    margin-left: 10px;
+}
+.act_button:hover{
+    text-decoration: none !important;
+    color: #008000 !important;
+}
+.show_button
+{
+    color:#037daf;
+    margin-left: 10px;
+}
+.show_button:hover{
+    text-decoration: none !important;
+    color:#037daf !important;
+}
+.edit_button
+{
+    color: #043ac3;
+    margin-left: 10px;
+}
+.edit_button:hover{
+    text-decoration: none !important;
+    color: #043ac3 !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button 
+{
+    padding: 0px 0px;
+    margin: 0px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover
+{
+    border: none !important;
+    background: none !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:active
+{
+    box-shadow: none !important;
+}
+
+table.dataTable thead .sorting:before, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_desc_disabled:before
+{
+    display: none;
+}
+table.dataTable thead .sorting:before, table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:before, table.dataTable thead .sorting_desc_disabled:after
+{
+    display: none;
+}
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc_disabled, table.dataTable thead .sorting_desc_disabled{
+    background-position: left;
+}
+
+.card_comments{background-color: unset;}
+
+.title-clipboard-icon{
+    padding:0px !important;
+}
+ 
+.clipboard-icon{
+    padding:5px ;
+    height:60px;
+    width:60px;
+}
+
+
+/* .typeahead { border: 2px solid #FFF;border-radius: 4px;padding: 8px 12px;max-width: 300px;min-width: 290px;background: rgba(66, 52, 52, 0.5);color: #FFF;}
+	.tt-menu { width:300px; }
+	ul.typeahead{margin:0px;padding:10px 0px;}
+	ul.typeahead.dropdown-menu li a {padding: 10px !important;	border-bottom:#CCC 1px solid;color:#FFF;}
+	ul.typeahead.dropdown-menu li:last-child a { border-bottom:0px !important; }
+	.bgcolor {max-width: 550px;min-width: 290px;max-height:340px;background:url("world-contries.jpg") no-repeat center center;padding: 100px 10px 130px;border-radius:4px;text-align:center;margin:10px;}
+	.demo-label {font-size:1.5em;color: #686868;font-weight: 500;color:#FFF;}
+	.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+		text-decoration: none;
+		background-color: #1f3f41;
+		outline: 0;
+	} */
